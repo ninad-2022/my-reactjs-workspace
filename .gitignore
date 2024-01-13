@@ -8,10 +8,11 @@ JavaScript/package-lock.json
 bootstrap-demo/bootstrap-5.1.3
 typeScript/node_modules/
 
-4pm-reactjs/basic/node_modules/
-4pm-reactjs/http-demo/node_modules/
-4pm-reactjs/redux-demo/node_modules/
-4pm-reactjs/routing-demo/node_modules/
+reactjs/basic/node_modules/
+reactjs/CDN/node_modules/
+reactjs/http-demo/node_modules/
+reactjs/redux-demo/node_modules/
+reactjs/routing-demo/node_modules/
 
 10am-reactjs/basic/node_modules/
 10am-reactjs/http-demo/node_modules/

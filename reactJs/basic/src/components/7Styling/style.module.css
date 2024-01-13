@@ -1,0 +1,15 @@
+.para {
+  font-style: italic;
+  background-color: indianred;
+}
+.focus {
+  font-weight: bolder;
+  font-size: 24px;
+  color: rgb(183, 206, 137);
+}
+.error {
+  background-color: red;
+}
+.success {
+  background-color: green;
+}

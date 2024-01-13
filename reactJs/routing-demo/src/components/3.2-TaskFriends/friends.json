@@ -1,0 +1,42 @@
+{
+  "Rahul": [
+    {
+      "id": 1,
+      "title": "School Friend",
+      "place": "Navi Mumbai",
+      "contact": 83893248793,
+      "desc": "Experience in international trading",
+      "image": "images/av-1.png"
+    }
+  ],
+  "Ram": [
+    {
+      "id": 2,
+      "title": "College Friend",
+      "place": "Mumbai",
+      "contact": 4764634,
+      "desc": "Experience in doing nothing *_*",
+      "image": "images/av-2.png"
+    }
+  ],
+  "kirti": [
+    {
+      "id": 3,
+      "title": "Village Friend",
+      "place": "Raigad",
+      "contact": 9872348972348973,
+      "desc": "Farmer",
+      "image": "images/av-3.png"
+    }
+  ],
+  "Prashant": [
+    {
+      "id": 4,
+      "title": "College Friend",
+      "place": "No where",
+      "contact": 73834834,
+      "desc": "Experinece in cartoon stuffs and Spider-Man fan",
+      "image": "images/1.jpg"
+    }
+  ]
+}

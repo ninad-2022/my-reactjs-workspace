@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "firstName": "Ninad",
+      "lastName": "Bhoir",
+      "mobile": "7506764530",
+      "email": "ninadbhoir123@gmail.com",
+      "age": "21",
+      "status": 1,
+      "city": "Koperkhairane, Navi Mumbai",
+      "id": 1
+    }
+  ]
+}

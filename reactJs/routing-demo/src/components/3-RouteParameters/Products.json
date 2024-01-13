@@ -1,0 +1,266 @@
+{
+  "mobile": [
+    {
+      "id": 1,
+      "title": "AAAAA",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "BBBBAAA",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "CCCC",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "DDDDD",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "EEEEE",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "FFFFFF",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "GGGG",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "HHHHHH",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    }
+  ],
+  "laptop": [
+    {
+      "id": 9,
+      "title": "AAAAA",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 10,
+      "title": "BBBBAAA",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 11,
+      "title": "CCCC",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 12,
+      "title": "DDDDD",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 13,
+      "title": "EEEEE",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 14,
+      "title": "FFFFFF",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 15,
+      "title": "GGGG",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 16,
+      "title": "HHHHHH",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    }
+  ],
+  "tv": [
+    {
+      "id": 17,
+      "title": "AAAAA",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 18,
+      "title": "BBBBAAA",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 19,
+      "title": "CCCC",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 20,
+      "title": "DDDDD",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 21,
+      "title": "EEEEE",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 22,
+      "title": "FFFFFF",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 23,
+      "title": "GGGG",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 24,
+      "title": "HHHHHH",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    }
+  ],
+  "printer": [
+    {
+      "id": 25,
+      "title": "AAAAA",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 26,
+      "title": "BBBBAAA",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 27,
+      "title": "CCCC",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 28,
+      "title": "DDDDD",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 29,
+      "title": "EEEEE",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 30,
+      "title": "FFFFFF",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 31,
+      "title": "GGGG",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 32,
+      "title": "HHHHHH",
+      "brand": "aaaaa",
+      "price": 11111,
+      "desc": "sdfshdkj fhjksdfhkjs dfhkhsdkjfh jskdfh",
+      "image": "images/1.jpg"
+    }
+  ]
+}

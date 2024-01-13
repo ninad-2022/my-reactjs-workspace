@@ -1,0 +1,258 @@
+{
+  "mobile": [
+    {
+      "id": 1,
+      "title": "mobile",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the mobile store, this is the best mobile you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "mobile",
+      "brand": "Apple",
+      "price": 2000,
+      "desc": "Welcome to the mobile store, this is the best mobile you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 3,
+      "title": "mobile",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the mobile store, this is the best mobile you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 4,
+      "title": "mobile",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the mobile store, this is the best mobile you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 5,
+      "title": "mobile",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the mobile store, this is the best mobile you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 6,
+      "title": "mobile",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the mobile store, this is the best mobile you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 7,
+      "title": "mobile",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the mobile store, this is the best mobile you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 8,
+      "title": "mobile",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the mobile store, this is the best mobile you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/1.jpg"
+    },
+    {
+      "id": 9,
+      "title": "mobile",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the mobile store, this is the best mobile you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/1.jpg"
+    }
+  ],
+  "laptop": [
+    {
+      "id": 10,
+      "title": "laptop",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the laptop store, this is the best laptop you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/on.jpg"
+    },
+    {
+      "id": 11,
+      "title": "laptop",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the laptop store, this is the best laptop you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/on.jpg"
+    },
+    {
+      "id": 12,
+      "title": "laptop",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the laptop store, this is the best laptop you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/on.jpg"
+    },
+    {
+      "id": 13,
+      "title": "laptop",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the laptop store, this is the best laptop you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/on.jpg"
+    },
+    {
+      "id": 14,
+      "title": "laptop",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the laptop store, this is the best laptop you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/on.jpg"
+    },
+    {
+      "id": 15,
+      "title": "laptop",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the laptop store, this is the best laptop you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/on.jpg"
+    },
+    {
+      "id": 16,
+      "title": "laptop",
+      "brand": "apple",
+      "price": 1000,
+      "desc": "Welcome to the laptop store, this is the best laptop you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/on.jpg"
+    }
+  ],
+  "tv": [
+    {
+      "id": 17,
+      "title": "TV",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the TV store, this is the best TV you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 18,
+      "title": "TV",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the TV store, this is the best TV you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 19,
+      "title": "TV",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the TV store, this is the best TV you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 20,
+      "title": "TV",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the TV store, this is the best TV you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 21,
+      "title": "TV",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the TV store, this is the best TV you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 22,
+      "title": "TV",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the TV store, this is the best TV you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 23,
+      "title": "TV",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the TV store, this is the best TV you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 24,
+      "title": "TV",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the TV store, this is the best TV you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    }
+  ],
+  "computers": [
+    {
+      "id": 25,
+      "title": "Computers",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the Computers store, this is the best Computers you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 26,
+      "title": "Computers",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the Computers store, this is the best Computers you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 27,
+      "title": "Computers",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the Computers store, this is the best Computers you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 28,
+      "title": "Computers",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the Computers store, this is the best Computers you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 29,
+      "title": "Computers",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the Computers store, this is the best Computers you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 30,
+      "title": "Computers",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the Computers store, this is the best Computers you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    },
+    {
+      "id": 31,
+      "title": "Computers",
+      "brand": "Videocone",
+      "price": 1000,
+      "desc": "Welcome to the Computers store, this is the best Computers you have ever used, Keep buying, enjoy the tech!",
+      "image": "images/image.jpg"
+    }
+  ]
+}
