@@ -1,0 +1,9 @@
+@use "constant.scss";
+header {
+  background-color: constant.$primary-color;
+  nav {
+    a {
+      color: constant.$secondary-color;
+    }
+  }
+}

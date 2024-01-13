@@ -1,0 +1,21 @@
+.container {
+  background-color: black;
+  h2 {
+    color: white;
+  }
+  p {
+    color: yellow;
+    span {
+      color: maroon;
+    }
+    a {
+      color: green;
+      &:hover {
+        background-color: aquamarine;
+      }
+    }
+  }
+  span {
+    color: pink;
+  }
+}

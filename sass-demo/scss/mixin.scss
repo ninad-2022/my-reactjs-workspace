@@ -1,0 +1,33 @@
+@mixin transform($value){
+    -webkit-transform: $value;
+    -moz-transform: $value;
+    -o-transform: $value;
+    -ms-transform: $value;
+}
+
+%box{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    transition: 2s;
+    margin: auto;
+}
+
+.first{
+    @extend %box;
+}
+.first:hover{
+    @include transform(rotate(250deg));
+}
+.second{
+    @extend %box;
+}
+.second:hover{
+    @include transform(scale(2));
+}
+.third{
+    @extend %box;
+}
+.third:hover{
+    @include transform(translate(10px, 150px))
+}

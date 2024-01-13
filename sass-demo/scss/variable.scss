@@ -1,0 +1,16 @@
+$primary-colors:red;
+
+.title{
+    color: $primary-colors;
+    font-size: 40px;
+}
+header{
+    color: $primary-colors;
+}
+section{
+    $primary-colors:yellow;
+    color: $primary-colors;
+}
+footer{
+    color: $primary-colors;
+}

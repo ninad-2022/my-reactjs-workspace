@@ -1,0 +1,29 @@
+@mixin frames($color, $deg) {
+  background-color: $color;
+  transform: rotate($deg);
+}
+
+@keyframes animation {
+  0% {
+    @include frames(red, 0deg);
+  }
+  25% {
+    @include frames(pink, 90deg);
+  }
+  50% {
+    @include frames(black, 180deg);
+  }
+  75% {
+    @include frames(green, 270deg);
+  }
+  100% {
+    @include frames(aquamarine, 360deg);
+  }
+}
+.container {
+  height: 200px;
+  width: 200px;
+  background-color: yellow;
+  animation: animation 10s;
+  animation-iteration-count: infinite;
+}

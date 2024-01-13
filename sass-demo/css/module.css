@@ -1,0 +1,26 @@
+header {
+  background-color: blue;
+}
+header nav a {
+  color: yellow;
+}
+
+footer p {
+  background-color: #999;
+  padding: 20px;
+  text-align: center;
+}
+
+aside {
+  background-color: pink;
+}
+
+main h1 {
+  font-size: 15px;
+  background-color: red;
+}
+main section {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=module.css.map */

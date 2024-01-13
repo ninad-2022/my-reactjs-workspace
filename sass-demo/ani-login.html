@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            flex-flow: column;
+            align-items: center;
+            width: 250px;
+            /* margin: 10% 10%; */
+            background-color: #a1a1f1;
+            padding: 30px;
+            border-radius: 20px;
+            transform: translate(20px, 20px);
+            transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+        }
+        .box input[type="text"], .box input[type="password"]{
+            margin: 5px;
+            background-color: #ffe4c4;
+            padding: 5px;
+            border: 2px solid #03e0fd;
+            border-radius: 10px;
+
+        }
+        .box input[type="text"]:hover, .box input[type="password"]:hover{
+            width: 200px;
+        }
+        .box input[type="submit"]{
+            background-color: #ffe4c4;
+            padding: 5px 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        .box input[type="Submit"]:hover{
+            width:80px;
+        }
+    </style>
+</head>
+<body>
+    <form action="html.text" class="box">
+        <h1>Login</h1>
+        <input type="text" name="" placeholder="Name">
+        <input type="password" name="" placeholder="Password">
+        <input type="submit" value="login">
+    </form>
+</body>
+</html>

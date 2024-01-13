@@ -1,0 +1,13 @@
+@use "header.scss";
+@use "footer.scss";
+@use "constant.scss";
+@use "aside.scss";
+main {
+  h1 {
+    font-size: constant.$para-font;
+    background-color: red;
+  }
+  section {
+    background-color: constant.$primary-color;
+  }
+}
