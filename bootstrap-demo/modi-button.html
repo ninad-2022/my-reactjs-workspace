@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Narendra modi</title>
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css" />
+    <style>
+      .box {
+        height: 25px;
+        overflow: hidden;
+        /* border: 1px solid; */
+        width: 100px;
+        margin: auto;
+        padding: 0 5px;
+      }
+      .box span {
+        position: relative;
+        transition: transform 0.4s;
+        display: inline-block;
+      }
+      .box span:before {
+        position: absolute;
+        top: 100%;
+        color: #333333;
+        content: attr(data-hover);
+        /* transform: translate3d(0, 0, 0); */
+        transition: color 0.4s;
+      }
+      .box:hover > span {
+        transform: translate3d(0, -25px, 20px);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box" style="background-color: aqua">
+      <span data-hover="Download">-Download-</span>
+      <!-- we uses data-hover attribute for accessing value of previous one -->
+    </div>
+  </body>
+</html>
