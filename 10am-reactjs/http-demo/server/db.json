@@ -1,0 +1,45 @@
+{
+  "users": [
+    {
+      "name": "oop",
+      "mobile": "673774463882",
+      "email": "ab@gmail.com",
+      "gender": "male",
+      "city": "Navi Mumbai",
+      "id": 3
+    },
+    {
+      "name": "tyrt5yt",
+      "mobile": "trryteytreytrtyrytr",
+      "email": "ytrytreyrt",
+      "gender": "male",
+      "city": "yrteytreytr",
+      "id": 6
+    },
+    {
+      "name": "Santosh",
+      "mobile": "7506764530",
+      "email": "ninadbhoir010@gmail.com",
+      "gender": "female",
+      "city": "Khutal",
+      "id": 7
+    },
+    {
+      "name": "Santosh",
+      "mobile": "dfbjdsakksdj",
+      "email": "fdfsds",
+      "gender": "female",
+      "city": "Khutal",
+      "id": 8
+    }
+  ],
+  "posts": [
+    {
+      "id": 2,
+      "name": "bbbb",
+      "email": "bbbb@gmail.com",
+      "city": "Mumbai",
+      "gender": "male"
+    }
+  ]
+}
