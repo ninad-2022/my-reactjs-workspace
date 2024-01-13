@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@babel/core": "^7.18.10",
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.3",
+    "@react-native-community/slider": "^4.4.2",
+    "axios": "^0.27.2",
+    "webpack": "^5.74.0"
+  },
+  "name": "ts-workspace",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
