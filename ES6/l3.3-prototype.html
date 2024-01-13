@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>protop</h2>
+
+    <script>
+      // l3.3-prototype-2.js
+      const emp1 = {
+        id: 1,
+        name: "aa",
+        mobile: 321,
+      };
+      const emp2 = {
+        id: 2,
+        name: "bb",
+        mobile: 4837264,
+      };
+      const proto = {
+        // outer values
+        company: "Wipro",
+
+        // inner fn
+        printProfile() {
+          console.log(
+            "my name is",
+            this.name,
+            "mobile",
+            this.mobile,
+            "and company is",
+            this.company
+          );
+        },
+      };
+      Object.setPrototypeOf(emp1, proto);
+      Object.setPrototypeOf(emp2, proto);
+
+      console.log(emp2.__proto__);
+      console.log(emp2.__proto__.__proto__);
+      console.log(emp2.company);
+      emp2.printProfile();
+      console.log(emp1);
+    </script>
+  </body>
+</html>

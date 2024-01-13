@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pseudo form</title>
+    <style>
+      input:focus {
+        background-color: bisque;
+      }
+      input:required {
+        border-radius: 30px;
+      }
+      input:valid {
+        border: 2px solid green;
+      }
+      input:invalid {
+        border: 2px solid red;
+      }
+      input:read-only {
+        border: 2px solid grey;
+      }
+      .error-message {
+        background-color: #ff0000aa;
+        padding: 3px 10px;
+      }
+      input:invalid + .error-message {
+        display: inline;
+      }
+      input:valid + .error-message {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="text" /><br />
+    <input type="text" required />
+    <span class="error-message">Name is required</span>
+    <br />
+    <input type="text" value="18" readonly />
+    <br />
+    <input type="number" min="18" max="28" />
+    <span class="error-message">age must be between 18 and 28</span>
+    <br />
+  </body>
+</html>

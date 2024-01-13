@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM-tree-traversal</title>
+  </head>
+  <body>
+    <pre>
+        DOM Tree Traversal
+        Moving from one node to another is called tree traversal 
+            
+        - parent node
+      
+        - child node 
+      
+        - sibling node 
+      
+      
+        Access parent node:- 
+          - parentNode :- returns the parent node. 
+          
+          Accessing child node:- 
+            - childNodes:- returns a list of all the children including element and 
+            text nodes. 
+      
+          - children:- returns a list of element nodes by ignoring the text nodes. 
+      
+          - firstChild :-  returns the first child node including element and text 
+      
+          - firstElementChild:- returns the first element child node by ignoring text node 
+      
+          - lastChild:- returns the last child node including element and text nodes. 
+      
+          - lastElementChild:- returns the last element child node by ignoring the text node 
+      
+          - elementChildCount:- returns total number of element nodes 
+      
+          
+      
+          Accessing sibling nodes:- 
+            - nextSibling:- returns the next sibling element including element and text 
+      
+            - nextElementSibling:- returns the next element sibling by ignoring text node 
+      
+            - previousSibling:- returns previous sibling node including element and text nodes 
+      
+            - previousElementSibling:- returns previous element sibling node by ignoring text node 
+      
+      
+      </pre
+    >
+
+    <section>
+      <h2>heading 1</h2>
+      <div>
+        my div
+        <p>my para</p>
+        <span>my span</span>
+      </div>
+      <h2>heading 2</h2>
+    </section>
+
+    <script>
+      //childNodes returns all the nodes including text and element
+      console.dir(document.body.childNodes);
+
+      //for p
+      var p = document.body.querySelector("p");
+      p.style.backgroundColor = "red";
+
+      //for span
+      p.nextElementSibling.style.backgroundColor = "pink";
+
+      //for heading "h1"
+      p.parentElement.previousElementSibling.style.backgroundColor = "yellow";
+
+      //for selecting pre
+      p.parentElement.parentElement.previousElementSibling.style.backgroundColor =
+        "cyan";
+
+      //childern returns all the child element nodes
+      console.dir(document.body.children);
+    </script>
+  </body>
+</html>

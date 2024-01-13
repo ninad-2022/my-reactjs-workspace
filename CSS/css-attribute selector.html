@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=p, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a[href] {
+        color: red;
+        font-weight: bolder;
+      }
+      a:not([href]) {
+        color: aquamarine;
+      }
+      a[href="http://www.topperskills.com"]
+      {
+        background: linear-gradient(to right, #fc5c7d, #6a82fb) !important;
+        word-spacing: 100px;
+      }
+      a[href^="https"] {
+        color: rgb(230, 3, 3);
+      }
+      a[href$=".in"] {
+        color: rgb(255, 157, 0);
+      }
+      a[href*="topper"] {
+        background-color: greenyellow;
+      }
+
+      a[href~="google"] {
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>
+      attribute selectors are used to select the elements based on their
+      attribute
+    </p>
+    <a>tftyycfcfccf</a><br />
+
+    <a href="http://www.topperskills.com">https topperskills .com</a><br />
+    <a href="http://www.topperskills.co.in">https topperskills .co.in</a><br />
+    <a href="http://www.topperskills.in">https topperskills .in</a><br />
+    <a href="http://www. google .in">https google .in</a><br />
+    <a href="http://topper.in">http://topper.in</a><br />
+  </body>
+</html>

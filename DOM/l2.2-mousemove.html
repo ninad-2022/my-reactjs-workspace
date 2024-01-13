@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>mousemove</title>
+  </head>
+  <body>
+    <div style="height: 100vh"></div>
+
+    <script>
+      var div = document.querySelector("div");
+      //use event objet "e" for accessing target element
+      div.addEventListener("mousemove", function (e) {
+        var x = e.clientX;
+        var y = e.clientY;
+        div.style.backgroundColor = "rgb(" + x + ",120," + y + ")";
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Browser-Events</title>
+  </head>
+  <body>
+    <video
+      controls
+      src="../html/assests/videos/yt5s.com-Boost confidence with TedX .mp4"
+    ></video>
+    <script>
+      var video = document.querySelector("video");
+      if (!navigator.onLine) {
+        video.play();
+      }
+
+      window.addEventListener("online", function (e) {
+        alert("Internet is back, you are connected now!");
+        video.pause();
+      });
+      window.addEventListener("offline", function (e) {
+        alert("Internet gone, you are disconnected now!");
+        video.play();
+      });
+    </script>
+  </body>
+</html>

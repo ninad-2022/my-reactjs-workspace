@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Event Delegation</title>
+  </head>
+  <body>
+    <ul>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+      <li>item</li>
+    </ul>
+
+    <script>
+      var ul = document.querySelector("ul");
+      ul.addEventListener("click", function (e) {
+        var li = e.target;
+        li.textContent += " - clicked...";
+        li.style.color = "red";
+      });
+    </script>
+  </body>
+</html>

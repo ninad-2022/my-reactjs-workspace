@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .container > div{
+            background-color: magenta;
+            margin: 5px;
+        }
+        .form-container h2{
+            background-color: chartreuse;
+            text-align: center;
+        }
+        .form-container{
+            width: 50vw;
+            flex-grow: 1;
+            align-items: stretch;
+            padding: 10px;
+        }
+        .form{
+            background-color: blue;
+            display: flex;
+            min-width: 80%;
+            flex-direction: column;
+             padding: 20px; /*/for setting display blue */
+             align-items: center;
+        }
+        .form input{
+            margin-bottom: 10px;
+        }
+        .social{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: #fff;
+        }
+        .social button{
+            background-color: black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id nam voluptas perferendis. Id, quis! Amet
+                architecto eos quis maiores hic, reprehenderit facere commodi mollitia fugiat nostrum fugit id veritatis
+                nemo distinctio libero iure voluptatibus dicta quas qui labore ratione laudantium? Iure reprehenderit
+                quaerat recusandae maxime, corrupti doloremque? Praesentium repellat quibusdam ad, ea et, accusantium
+                velit, unde impedit qui asperiores quos accusamus placeat veritatis est vero ex nisi ipsam possimus!
+                Maxime voluptate ut recusandae dolores est autem error voluptatibus accusamus cumque voluptas vero
+                quisquam earum sit, odio dicta maiores, vel commodi? Fugit aspernatur, quos ex doloribus iste illum quis
+                doloremque natus.</p>
+        </div>
+        <div class="form-container">
+            <h2>Contact details</h2>
+            <div class="form">
+                <input type="text">
+                <input type="text">
+                <input type="text">
+                <button>Register</button>
+            </div>
+            <p>You can contact us at below address</p>
+            <p>
+                <b>mobile</b> 2113363663 <br>
+                <b>mobile</b> 2113363663 <br>
+                <b>mobile</b> 2113363663 <br>
+            </p>
+            <div class="social">
+            <button>a</button>
+            <button>b</button>
+            <button>c</button>
+            <button>d</button>
+            </div>
+
+        </div>
+        <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus beatae saepe inventore nostrum quas
+                molestias. Molestiae enim, repellat ratione, provident voluptatibus at, amet saepe sapiente aliquam
+                laboriosam deserunt sint a animi vero perferendis temporibus eligendi nostrum dolores aut? Laborum
+                commodi, aut quod, sit quaerat quam iusto labore saepe, sapiente distinctio pariatur sunt eaque
+                blanditiis illum nobis rerum omnis adipisci vero voluptas! Tempore cum explicabo tempora quisquam vitae.
+                Praesentium hic blanditiis perspiciatis dolorum perferendis? Nemo culpa doloremque quaerat aperiam quod
+                soluta tenetur voluptatum accusantium assumenda! Quasi placeat, repudiandae quod enim modi excepturi.
+                Eum dolorum facilis molestiae totam aliquam nisi doloribus ipsam?</p>
+        </div>
+    </section>
+</body>
+
+</html>
+
+
+
+<!-- 
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: flex;
+      }
+      .container > div {
+        background-color: magenta;
+        margin: 5px;
+      }
+      .form-container {
+        min-width: 50vw;
+        flex-grow: 1;
+        align-items: stretch;
+        padding: 10px;
+      }
+
+      .form-container h2 {
+        background-color: chartreuse;
+        text-align: center;
+      }
+      .form {
+        background-color: blue !important;
+        display: flex;
+        min-width: 90%;
+        flex-direction: column;
+        padding: 20px;
+        align-items: center;
+      }
+      .form input {
+        margin-bottom: 10px;
+      }
+      .social {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: #fff;
+        padding: 20px;
+      }
+      .social button {
+        background-color: #000;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section class="container">
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          quis ducimus ipsam aperiam rerum unde tenetur ea beatae consequatur!
+          Quam perferendis a dolorum ut tempora eius itaque eos magni
+          distinctio. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Molestias quis ducimus ipsam aperiam rerum unde tenetur ea beatae
+          consequatur! Quam perferendis a dolorum ut tempora eius itaque eos
+          magni distinctio. Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Molestias quis ducimus ipsam aperiam rerum unde tenetur ea
+          beatae consequatur! Quam perferendis a dolorum ut tempora eius itaque
+          eos magni distinctio.
+        </p>
+      </div>
+      <div class="form-container">
+        <h2>Contact Details</h2>
+
+        <div class="form">
+          <input type="text" />
+          <input type="text" />
+          <input type="text" />
+          <button>Register</button>
+        </div>
+
+        <p>You can contact us at below address</p>
+        <p>
+          <b>Mobile: </b> 1234567890 <br />
+          <b>Mobile: </b> 1234567890 <br />
+          <b>Mobile: </b> 1234567890
+        </p>
+
+        <div class="social">
+          <button>F</button>
+          <button>F</button>
+          <button>F</button>
+          <button>F</button>
+        </div>
+      </div>
+      <div>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit
+          asperiores rem, temporibus, exercitationem quisquam enim autem culpa,
+          vitae labore id obcaecati? Ipsa incidunt harum fuga explicabo corrupti
+          ab quo consectetur? Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Reprehenderit asperiores rem, temporibus, exercitationem
+          quisquam enim autem culpa, vitae labore id obcaecati? Ipsa incidunt
+          harum fuga explicabo corrupti ab quo consectetur? Lorem ipsum dolor
+          sit amet consectetur adipisicing elit. Reprehenderit asperiores rem,
+          temporibus, exercitationem quisquam enim autem culpa, vitae labore id
+          obcaecati? Ipsa incidunt harum fuga explicabo corrupti ab quo
+          consectetur?
+        </p>
+      </div>
+    </section>
+  </body>
+</html> -->

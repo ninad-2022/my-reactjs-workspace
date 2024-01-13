@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create-list-input</title>
+  </head>
+  <body>
+    <label>City:</label>
+    <input type="text" id="cityInp" />
+    <button onclick="addcity()">Add city</button>
+    <hr />
+
+    <h3>City List</h3>
+    <ul id="cities"></ul>
+
+    <script>
+      var input = document.getElementById("cityInp");
+      var ul = document.getElementById("cities");
+
+      function addcity() {
+        var li = document.createElement("li");
+        li.textContent = input.value;
+        input.value = "";
+
+        ul.appendChild(li);
+      }
+    </script>
+  </body>
+</html>

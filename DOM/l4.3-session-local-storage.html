@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+    <title>Session-local-storage</title>
+  </head>
+  <body>
+    <button onclick="storeData()">Store</button>
+    <button onclick="removeData()">Delete</button>
+    <button onclick="getData()">Get</button>
+
+    <script>
+      function storeData() {
+        sessionStorage.setItem("name", "n.DEveloper");
+        localStorage.setItem("name", "n.DEveloper");
+      }
+
+      function removeData() {
+        sessionStorage.clear();
+        localStorage.clear();
+      }
+
+      function getData() {
+        alert(sessionStorage.getItem("name"));
+      }
+    </script>
+  </body>
+</html>

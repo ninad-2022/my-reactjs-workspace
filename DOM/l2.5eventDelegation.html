@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Event Delegation</title>
+  </head>
+  <body>
+    <ul>
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+      <li>Fourth</li>
+      <li>Fifth</li>
+      <li>Sixth</li>
+      <li>Seventh</li>
+      <li>Eight</li>
+      <li>Ninth</li>
+      <li>Tenth</li>
+    </ul>
+
+    <script>
+      // eventdelegation is a concept in which we use one elemet to represents other ex: use "ul" for representing "li"
+
+      var ul = document.querySelector("ul");
+
+      ul.addEventListener("click", function (e) {
+        e.target.style.color = "red";
+      });
+    </script>
+  </body>
+</html>

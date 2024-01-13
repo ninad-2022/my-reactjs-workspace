@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    div span {
+      background-color: cyan;
+    }
+
+    /* select all direct child */
+    div > span {
+      background-color: red;
+    }
+
+    /* select the immediate next sibling element */
+    div + span {
+      background-color: blue;
+    }
+
+    /* select the all next sibling element */
+    div ~ span {
+      background-color: chartreuse;
+    }
+  </style>
+  <body>
+    <span>before</span>
+    <div>
+      <span>ineer</span>
+      <p>
+        <span> inner inner </span>
+      </p>
+    </div>
+    <span>after 1</span>
+    <span>after 2</span>
+  </body>
+</html>

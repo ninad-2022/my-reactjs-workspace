@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigaor Browser</title>
+  </head>
+  <body>
+    <script>
+      // it gives name of the browser as userAgent means browser navigator.userAgent
+      console.log(navigator.userAgent);
+      if (navigator.userAgent.includes("Edg"))
+        alert("Browser is Microsoft edge");
+      else if (navigator.userAgent.includes("Chrome"))
+        alert("Browser is chrome");
+      else if (navigator.userAgent.includes("Firefox"))
+        alert("Browser is Firefox");
+
+      console.log(navigator.platform);
+    </script>
+  </body>
+</html>

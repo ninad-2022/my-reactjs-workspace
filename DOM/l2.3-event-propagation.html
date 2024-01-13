@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Event Propagation</title>
+  </head>
+  <body>
+    <div>
+      my div
+      <p>my para</p>
+    </div>
+
+    <pre>
+      Event Propagation:- The event propagation mode determines in which order the elements receive the event.
+
+      Target element/node:- the node on which the event is triggered is called 
+      target node. 
+    </pre>
+
+    <script>
+      var div = document.querySelector("div");
+      var p = document.querySelector("p");
+
+      div.addEventListener(
+        "click",
+        function () {
+          console.log("div clicked");
+        },
+        false //falsing event propagration
+      );
+
+      // stopImmediatePropagation() will execuate only function in which it has been written
+      p.addEventListener("click", function (e) {
+        // e.stopPropagation();
+        e.stopImmediatePropagation();
+        console.log("p clicked 1", e);
+      });
+      p.addEventListener("click", function (e) {
+        console.log("p clicked 2", e);
+      });
+    </script>
+  </body>
+</html>

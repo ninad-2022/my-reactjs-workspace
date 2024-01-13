@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigator</title>
+  </head>
+  <body>
+    <button onclick="print()">display</button>
+
+    <input type="text" name="" id="" />
+    <button onclick="addData()">Add to clipboard</button>
+
+    <script>
+      //for adding data into clipboard
+      function addData() {
+        var input = document.querySelector("input");
+        navigator.clipboard.writeText(input.value).then((res) => {
+          alert("added");
+        });
+      }
+
+      //for printing data into clipboard
+      function print() {
+        navigator.clipboard
+          .readText()
+          .then((data) => {
+            document.write(data);
+          })
+          .catch((err) => {
+            document.write(err);
+          });
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM-Node</title>
+  </head>
+  <body>
+    <div>
+      my div
+      <p>sample para</p>
+      <p>JS developer here</p>
+    </div>
+    <ul>
+      <li>First-1</li>
+      <li>First-2</li>
+      <li>First-3</li>
+    </ul>
+    <h2>
+      sample title
+      <span>sample span</span>
+    </h2>
+    <form action=""></form>
+    <form action=""></form>
+    <form action=""></form>
+    <a href="4433">fkdfs</a>
+    <a href=""></a>
+    <a href=""></a>
+    <a href=""></a>
+    <script>
+      console.log(document);
+      console.dir(document);
+
+      //for getting forms
+      console.log("forms:- ", document.forms);
+
+      //for getting links
+      console.log("links:-", document.links);
+
+      //for getting all document element and link
+      console.log("all in dom with length:-", document.all.length);
+
+      //for getting all document element and link and length
+      console.log("all in dom:-", document.all);
+
+      //for changing backgroun color of the body
+      document.body.style.backgroundColor = "green";
+
+      //for getting file path, origin, protocol, hosting
+      console.log("file path:- ", document.location);
+    </script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    ASCII character set contains characters of english language only a-z, A-Z,
+    0-9, symbols 1 byte = 256 characterset UNICODE character set("utf-8")
+  </head>
+  <body></body>
+</html>

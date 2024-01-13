@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>accessing dom</title>
+    <style>
+      /* css selects all */
+      #title {
+        background-color: rebeccapurple;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- we are accessing the node here -->
+    <h1 id="title" name="heading">heading one</h1>
+    <h1 name="heading">heading one</h1>
+    <h3 id="title">Heading four</h3>
+    <h6>getElementsByTagName</h6>
+    <p name="heading">para</p>
+    <span class="spanny">Sample person</span>
+    <script>
+      /*
+       // JS selects only first element
+       
+       var idSelect = document.getElementById("title");
+       idSelect.style.color = "red";
+      */
+
+      /*
+      //It selects all the name
+
+      var nodeList = document.getElementsByName("heading");
+      console.log(nodeList); //it will give you selected name in console
+      //for loop is essential
+      for (var ele of nodeList) {
+        ele.style.color = "red";
+      }
+      */
+
+      //by using getElementsByTagName
+      var nodeListTag = document.getElementsByTagName("h6");
+      for (var i of nodeListTag) {
+        i.style.backgroundColor = "pink";
+      }
+
+      //by using getElementsByClassName
+      var nodeListClass = document.getElementsByClassName("spanny");
+      for (var i of nodeListClass) {
+        i.style.color = "blue";
+      }
+    </script>
+  </body>
+</html>

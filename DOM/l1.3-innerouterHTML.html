@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>modifying HTML</title>
+  </head>
+  <body>
+    <pre>
+        textContent
+        innerHTML
+        outerHTML
+    </pre>
+    <p>
+      start
+      <span>Sample para</span>
+      end
+    </p>
+    <h4>heading</h4>
+
+    <script>
+      var p = document.querySelector("p");
+      //it will select the whole content inside the p
+      // console.log("content:-", p);
+
+      //it will return only text content in the selected element
+      console.log("textContent:-", p.textContent);
+
+      //it returns content inside the element
+      console.log("innerHTML content:-", p.innerHTML);
+
+      //it returns content outside the element
+      console.log("outerHTML content:-", p.outerHTML);
+
+      var accessingH4 = document.querySelector("h4");
+
+      //it returns only text element
+      // accessingH4.textContent = "<span>Sample span form js</span>";
+
+      //it will add in the "h4"
+      // accessingH4.innerHTML = "<span>innerHTML: Sample span form js</span>";
+
+      //it will replace the "h4"
+      // accessingH4.outerHTML = "<span>outerHTML: Sample span form js</span>";
+
+      //if you want to add in existing element then use +=
+      accessingH4.outerHTML += "<span>adding by using += operator</span>";
+    </script>
+  </body>
+</html>

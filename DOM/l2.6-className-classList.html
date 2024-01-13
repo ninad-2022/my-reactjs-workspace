@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>className and classList</title>
+  </head>
+  <body>
+    <h1 class="first second">Topper Skills</h1>
+
+    <script>
+      var h1 = document.querySelector("h1");
+
+      console.log(h1.className);
+
+      var classes = h1.classList;
+
+      console.log(classes);
+
+      classes.add("third", "fourth");
+      if (classes.contains("second")) classes.remove("second");
+      classes.replace("first", "fifth");
+    </script>
+  </body>
+</html>

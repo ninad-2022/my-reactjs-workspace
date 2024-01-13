@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>preventDefault()</title>
+  </head>
+  <body>
+    <a href="https://www.topperskills.com">Topper Skills</a>
+
+    <form action="">
+      <input type="text" />
+      <input type="submit" />
+    </form>
+    <script>
+      // preventDefault() prevents default bheavior and gives below assign bheavior to selected one
+      var a = document.querySelector("a");
+      a.addEventListener("click", function (e) {
+        e.preventDefault();
+        alert("Custom behaviour");
+      });
+      var form = document.querySelector("form");
+      form.addEventListener("submit", function (e) {
+        e.preventDefault();
+        alert("Custom behaviour");
+      });
+    </script>
+  </body>
+</html>

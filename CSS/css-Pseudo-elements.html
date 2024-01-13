@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pseudo selectors</title>
+    <style>
+      /*This pseudo elements are used to select the part of the element*/
+      p::selection {
+        background-color: rgb(255, 31, 229);
+        color: #fff;
+      }
+
+      p::first-line {
+        font-style: italic;
+        color: crimson;
+      }
+      P:first-child::first-letter {
+        text-transform: uppercase;
+        font-size: 5.5rem;
+        font-weight: bolder;
+        color: chartreuse;
+      }
+      li::marker {
+        color: aquamarine;
+        font-size: xx-large;
+      }
+      input::placeholder {
+        color: #f0f;
+      }
+      p::before {
+        content: "Read here ";
+        color: #098;
+      }
+      p::after {
+        content: "The End!";
+        color: #098;
+      }
+    </style>
+  </head>
+
+  <body>
+    <p>Hey champ!</p>
+    <input type="text" value="" placeholder="yournmae@gmail.com" />
+    <p>
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+      adipisci ex illum iure amet tenetur autem nostrum qui dicta culpa. Error
+      labore dicta quo odio nesciunt praesentium, eligendi facere blanditiis?
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam possimus
+      totam nulla iste eos? Facilis delectus placeat aperiam animi numquam rerum
+      tempore velit repudiandae sit, exercitationem odit corrupti, eum deserunt
+      iure unde provident veritatis debitis magnam sed dignissimos sunt eligendi
+      hic laborum. Animi voluptatum quisquam ullam, suscipit rerum itaque
+      minima!
+    </p>
+    <ul>
+      <li>g</li>
+      <li>gvtv</li>
+      <li>by77vt</li>
+      <li>pooo</li>
+    </ul>
+  </body>
+</html>

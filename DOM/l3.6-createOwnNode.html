@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Create own Node</title>
+  </head>
+  <body>
+    <div class="container">my div</div>
+
+    <script>
+      var p = document.createElement("p");
+
+      // p.textContent = "this is the paragraph created from js";
+
+      var text = document.createTextNode(
+        "this is the paragraph created from js"
+      );
+
+      p.appendChild(text);
+      document.querySelector(".container").appendChild(p);
+    </script>
+  </body>
+</html>

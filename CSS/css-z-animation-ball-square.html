@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ball animation box</title>
+    <style>
+      @keyframes ball-ani {
+        0% {
+          left: 0;
+          top: 0;
+        }
+        25% {
+          top: 0;
+          left: calc(100vw - 100px);
+        }
+        50% {
+          top: calc(100vh - 100px);
+          left: calc(100vw - 100px);
+          transform: rotate(360deg);
+        }
+        75% {
+          top: calc(100vh - 100px);
+          left: 0;
+        }
+        100% {
+          left: 0;
+          top: 0;
+          transform: rotate(0deg);
+        }
+      }
+      div {
+        width: 100px;
+        height: 100px;
+        border-radius: 100px;
+        background: linear-gradient(red, chartreuse);
+        position: absolute;
+        animation-name: ball-ani;
+        animation-duration: 5s;
+        /* animation-iteration-count: 5; */
+        animation-iteration-count: infinite;
+        animation-direction: reverse;
+        animation-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+      }
+      div:hover {
+        animation-play-state: paused;
+      }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

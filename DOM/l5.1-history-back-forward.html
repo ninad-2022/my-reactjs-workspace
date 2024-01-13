@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History.back & .forward</title>
+  </head>
+  <body>
+    <button onclick="history.forward()">Back</button>
+    <button onclick="history.back()">Forward</button>
+    <a href="https://www.topperskills.com">Topper Skills</a>
+
+    <span
+      style="text-decoration: under; color: burlywood; cursor: pointer"
+      onclick="visit()"
+      >Visit topper skills</span
+    >
+
+    <script>
+      function visit() {
+        location.href = "https://www.topperskills.com";
+      }
+    </script>
+  </body>
+</html>

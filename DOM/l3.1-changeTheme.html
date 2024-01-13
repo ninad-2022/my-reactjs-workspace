@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+
+    <style>
+      header {
+        padding: 20px;
+      }
+
+      .dark .title {
+        background-color: blue;
+        color: #fff;
+      }
+
+      .dark a {
+        color: #fff;
+      }
+
+      .light .title {
+        color: blue;
+      }
+
+      .dark header {
+        background-color: blue;
+        color: #fff;
+      }
+
+      .light header {
+        background-color: #fff;
+      }
+      .light a {
+        color: blue;
+      }
+    </style>
+  </head>
+  <body class="dark">
+    <header>
+      <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+      </nav>
+
+      <hr />
+    </header>
+    <h1 class="title">THis is Topper Skills</h1>
+    <button onclick="changeTheme()">Theme</button>
+
+    <script>
+      function changeTheme() {
+        var classes = document.body.classList;
+
+        if (classes.contains("dark")) {
+          classes.replace("dark", "light");
+        } else {
+          classes.replace("light", "dark");
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOM- Browser object model</title>
+  </head>
+  <body>
+    <button onclick="showWarning()">alert</button>
+    <button onclick="userConfirmation()">confirm</button>
+    <button onclick="userInput()">prompt</button>
+
+    <script>
+      //for alert
+      function showWarning() {
+        window.alert("You are not allow to do this!");
+      }
+
+      //for confirm
+      function userConfirmation() {
+        var status = confirm("are you sure want to delete the record?");
+        if (status) alert("deleted");
+        else alert("not deleted");
+      }
+
+      //for prompt
+      function userInput() {
+        var city = prompt("Enter your city");
+        alert("your city name is " + city);
+      }
+    </script>
+  </body>
+</html>

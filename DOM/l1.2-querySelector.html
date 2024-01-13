@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>querySelector</title>
+  </head>
+  <body>
+    <!-- we are accessing the node here -->
+
+    <h1 id="title" name="heading">heading one</h1>
+    <h1 name="heading">heading two</h1>
+    <h3 id="title">Heading three</h3>
+    <h6>getElementsByTagName</h6>
+    <p name="heading">para</p>
+    <span class="spanny">Sample person</span>
+
+    <script>
+      // querySelector selects element by CSS syntax. it selects only one
+      var element = document.querySelector("h6");
+
+      //   var element = document.querySelector("#title");
+
+      //   var element = document.querySelector(".spanny");
+      element.style.backgroundColor = "red";
+
+      //querySelectorAll selects all queries and returns list. it requires for loop
+      var getList = document.querySelectorAll("h1");
+      for (var i of getList) {
+        i.style.backgroundColor = "yellow";
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic-Product-Table</title>
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      td,
+      th {
+        padding: 4px 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        Product Table
+      </caption>
+      <tr>
+        <th>Product ID</th>
+        <th>Product Name</th>
+        <th>Brand Name</th>
+        <th>Quantity</th>
+        <th>Price</th>
+        <th>Choice</th>
+      </tr>
+
+      <tr>
+        <td><input type="number" id="inpId" /></td>
+        <td><input type="text" id="inpName" /></td>
+        <td><input type="text" id="inpBrandName" /></td>
+        <td><input type="number" id="inpQuantity" /></td>
+        <td><input type="number" id="inpPrice" /></td>
+        <th><button onclick="addRow()">book</button></th>
+      </tr>
+
+      <script>
+        var table = document.querySelector("table");
+        var inpId = document.getElementById("inpId");
+        var inpName = document.getElementById("inpName");
+        var inpBrandName = document.getElementById("inpBrandName");
+        var inpQuantity = document.getElementById("inpQuantity");
+        var inpPrice = document.getElementById("inpPrice");
+
+        function addRow() {
+          var tr = document.createElement("tr");
+          var idCol = document.createElement("td");
+          var nameCol = document.createElement("td");
+          var brandNameCol = document.createElement("td");
+          var quantityCol = document.createElement("td");
+          var priceCol = document.createElement("td");
+          var btnCol = document.createElement("td");
+
+          idCol.textContent = inpId.value;
+          nameCol.textContent = inpName.value;
+          brandNameCol.textContent = inpBrandName.value;
+          quantityCol.textContent = inpQuantity.value;
+          priceCol.textContent = inpPrice.value;
+
+          inpId.value = "";
+          inpName.value = "";
+          inpBrandName.value = "";
+          inpQuantity.value = "";
+          inpPrice.value = "";
+
+          tr.appendChild(idCol);
+          tr.appendChild(nameCol);
+          tr.appendChild(brandNameCol);
+          tr.appendChild(quantityCol);
+          tr.appendChild(priceCol);
+          tr.appendChild(btnCol);
+
+          var deleteBtn = document.createElement("button");
+          deleteBtn.addEventListener("click", function () {
+            table.removeChild(tr);
+          });
+
+          deleteBtn.textContent = "delete";
+          btnCol.appendChild(deleteBtn);
+          table.appendChild(tr);
+        }
+      </script>
+    </table>
+  </body>
+</html>

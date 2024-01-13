@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>sidebar</title>
+    <style>
+      aside {
+        background-color: cyan;
+        width: 200px;
+        height: 90vh;
+        margin-left: -250px;
+        transition: 2s linear;
+      }
+      #menu {
+        display: none;
+      }
+      .btn {
+        background-color: blue;
+        color: #fff;
+        padding: 2px 8px;
+      }
+      #menu:checked ~ aside {
+        margin-left: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <input type="checkbox" id="menu" />
+    <label for="menu" class="btn">Menu</label>
+    <aside>
+      <h2>Mobile menu</h2>
+      <a href="">Menu item </a><br />
+      <a href="">Menu item </a><br />
+      <a href="">Menu item </a><br />
+      <a href="">Menu item </a><br />
+      <a href="">Menu item </a><br />
+      <a href="">Menu item </a><br />
+      <a href="">Menu item </a><br />
+      <a href="">Menu item </a><br />
+      <a href="">Menu item </a><br />
+      <a href="">Menu item </a><br />
+    </aside>
+  </body>
+</html>

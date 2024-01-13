@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Justify content property</title>
+    <style>
+      section {
+        display: flex;
+        height: 90vh;
+        background-color: coral;
+        flex-wrap: wrap;
+        /* justify-content: space-between; */
+        /* justify-content: space-around; */
+        /* justify-content: space-evenly; */
+        /* justify-content: flex-start; */
+        /* justify-content: flex-end; */
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+        /* align-items: center; */
+        /* align-content: flex-start; */
+        /* align-content: flex-end; */
+        /* align-content: center; */
+        /* align-content: space-between; */
+        align-content: space-between;
+      }
+
+      div {
+        max-width: 150px;
+        background-color: red;
+      }
+      div:nth-child(even) {
+        background-color: blue;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div style="align-self: stretch">container no 1</div>
+      <div>container no 2</div>
+      <div>container no 3</div>
+      <div>container no 4</div>
+      <div>container no 5</div>
+      <div>container no 2</div>
+      <div>container no 3</div>
+      <div>container no 4</div>
+      <div>container no 5</div>
+      <div>container no 2</div>
+      <div>container no 3</div>
+      <div>container no 4</div>
+      <div>container no 5</div>
+      <div>container no 2</div>
+      <div>container no 3</div>
+      <div>container no 4</div>
+      <div>container no 5</div>
+    </section>
+  </body>
+</html>

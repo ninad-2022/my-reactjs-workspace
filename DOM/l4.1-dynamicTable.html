@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dynamic Table</title>
+    <!-- make a Dynamic table  -->
+    <style>
+      table,
+      td,
+      th {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        padding: 3px 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        User List
+      </caption>
+
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Mobile</th>
+        <th>City</th>
+        <th>Action</th>
+      </tr>
+
+      <tr>
+        <td><input type="number" id="idInp" /></td>
+        <td><input type="text" id="nameInp" /></td>
+        <td><input type="text" id="mobileInp" /></td>
+        <td><input type="text" id="cityInp" /></td>
+        <td><button onclick="addRow2()">Add</button></td>
+      </tr>
+    </table>
+
+    <script>
+      var table = document.querySelector("table");
+      var idInp = document.getElementById("idInp");
+      var nameInp = document.getElementById("nameInp");
+      var mobileInp = document.getElementById("mobileInp");
+      var cityInp = document.getElementById("cityInp");
+
+      function addRow() {
+        var tr = document.createElement("tr");
+        var idCol = document.createElement("td");
+        var nameCol = document.createElement("td");
+        var mobileCol = document.createElement("td");
+        var cityCol = document.createElement("td");
+        var btnCol = document.createElement("td");
+
+        idCol.textContent = idInp.value;
+        nameCol.textContent = nameInp.value;
+        mobileCol.textContent = mobileInp.value;
+        cityCol.textContent = cityInp.value;
+
+        idInp.value = "";
+        nameInp.value = "";
+        mobileInp.value = "";
+        cityInp.value = "";
+
+        tr.appendChild(idCol);
+        tr.appendChild(nameCol);
+        tr.appendChild(mobileCol);
+        tr.appendChild(cityCol);
+        tr.appendChild(btnCol);
+
+        var deleteBtn = document.createElement("button");
+        deleteBtn.addEventListener("click", function () {
+          table.removeChild(tr);
+        });
+
+        deleteBtn.textContent = "delete";
+        btnCol.appendChild(deleteBtn);
+        table.appendChild(tr);
+      }
+
+      //OR
+      //same logic but different code function
+      function addRow2() {
+        var row = table.insertRow();
+        var idCol = row.insertCell(0);
+        var nameCol = row.insertCell(1);
+        var mobileCol = row.insertCell(2);
+        var cityCol = row.insertCell(3);
+        var btnCol = row.insertCell(4);
+
+        idCol.textContent = idInp.value;
+        nameCol.textContent = nameInp.value;
+        mobileCol.textContent = mobileInp.value;
+        cityCol.textContent = cityInp.value;
+
+        idInp.value = "";
+        nameInp.value = "";
+        mobileInp.value = "";
+        cityInp.value = "";
+
+        var deleteBtn = document.createElement("button");
+        deleteBtn.addEventListener("click", function () {
+          table.deleteRow(row.rowIndex);
+        });
+
+        deleteBtn.textContent = "delete";
+        btnCol.appendChild(deleteBtn);
+      }
+    </script>
+  </body>
+</html>

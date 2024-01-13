@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var nameInp = document.getElementById("name");
+      var mobileInp = document.getElementById("mobile");
+      var emailInp = document.getElementById("email");
+      var passInp = document.getElementById("pass");
+
+      function register() {
+        if (!nameInp) return;
+        var user = {
+          name: nameInp.value,
+          mobile: mobileInp.value,
+          email: emailInp.value,
+          password: passInp.value,
+        };
+
+        var userList = JSON.parse(localStorage.getItem("users"));
+
+        if (!userList) userList = [];
+        userList.push(user);
+
+        localStorage.setItem("users", JSON.stringify(userList));
+
+        nameInp.value = "";
+        mobileInp.value = "";
+        emailInp.value = "";
+        passInp.value = "";
+      }
+    </script>
+  </body>
+</html>

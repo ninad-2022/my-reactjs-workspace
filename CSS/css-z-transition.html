@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    div {
+      width: 200px;
+      height: 200px;
+      background-color: red;
+      transition-duration: 2s;
+      transition-property: height, width;
+      transition-timing-function: steps(10);
+      transition-delay: 0.1s;
+      /* transition: 2s width linear 1s, 3s background-color; */
+    }
+    div:hover {
+      background-color: greenyellow;
+      width: 400px;
+      height: 300px;
+    }
+  </style>
+  <body>
+    <div></div>
+  </body>
+</html>
