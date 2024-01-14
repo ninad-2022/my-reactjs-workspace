@@ -35,3 +35,6 @@ react-native/wiwi-superapp/node_modules/
 react-native/AwesomeProject/node_modules/
 
 webpack-demo/node_modules/
+
+docker/demo/node_modules/
+docker/demo/package-lock.json
