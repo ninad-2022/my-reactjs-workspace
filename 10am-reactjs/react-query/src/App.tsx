@@ -5,7 +5,7 @@ function App() {
   return (
     <>
       <h1>React Query</h1>
-      <aside className="bg-black">
+      <aside>
         <Link to="/">Home</Link>
         <Link to="/products">product</Link>
       </aside>
