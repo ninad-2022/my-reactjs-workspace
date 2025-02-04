@@ -21,10 +21,6 @@ reactjs/routing-demo/node_modules/
 10am-reactjs/routing-demo/node_modules/
 10am-reactjs/routing-demo/build/
 
-Nodejs/api-testing/node_modules/
-Nodejs/node_modules/
-Nodejs/sequelize/node_modules/
-Nodejs/test/node_modules/
 
 react-native/Awesome01/node_modules/
 react-native/BackgroundChanger04/node_modules/
@@ -35,6 +31,3 @@ react-native/wiwi-superapp/node_modules/
 react-native/AwesomeProject/node_modules/
 
 webpack-demo/node_modules/
-
-docker/demo/node_modules/
-docker/demo/package-lock.json
