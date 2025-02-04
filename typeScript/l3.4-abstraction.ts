@@ -1,6 +1,6 @@
 /*
 l3.4-abstraction.ts
-  - It is a mechanism of hiding the implementation and showing only necessary functionality to the user.
+  - It is a mechanism of hiding the implementation and showing only necessary functionality.
   - By using Abstraction you can make a system simple to use.
 */
 
