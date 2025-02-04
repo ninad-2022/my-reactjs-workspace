@@ -9,6 +9,7 @@ abstract class GroupRules {
   constructor() {
     console.log("GroupRules construction");
   }
+  
   abstract createGroup(): void;
   abstract addTitle(title: string): void;
   abstract addIcon(icon: string): void;
