@@ -8,31 +8,39 @@ const AutoSearchInput = () => {
   const [cache, setCache] = useState({});
 
   const handleSearchChange = (e) => {
-    console.log(e.target.value);
     setSearch(e.target.value);
   };
 
   const fetchFoodItems = async () => {
     if (cache[search]) {
       setFoodItems(cache?.recipes);
+      return;
     }
-    const fetchFoodItems = await fetch(
-      `https://dummyjson.com/recipes/search?q=${search}`
-    );
-    const food = await fetchFoodItems.json();
-    setFoodItems(food?.recipes);
-    setCache((prev) => ({
-      ...prev,
-      [search]: food?.recipes,
-    }));
+
+    try {
+      const fetchFoodItems = await fetch(
+        `https://dummyjson.com/recipes/search?q=${search}`
+      );
+      const food = await fetchFoodItems.json();
+      setFoodItems(food?.recipes);
+      setCache((prev) => ({
+        ...prev,
+        [search]: food?.recipes,
+      }));
+    } catch (error) {
+      console.error("error: ", error);
+    }
   };
 
   useEffect(() => {
+    if (!search.trim()) {
+      setFoodItems([]);
+      return;
+    }
     const timer = setTimeout(fetchFoodItems, 500);
-    return () => {
-      clearTimeout(timer);
-    };
+    return () => clearTimeout(timer);
   }, [search]);
+
   return (
     <>
       <h2>Auto Search</h2>
@@ -45,7 +53,7 @@ const AutoSearchInput = () => {
           onFocus={() => setShowContent(true)}
           onBlur={() => setShowContent(false)}
         />
-        {showContent ? (
+        {showContent && foodItems?.length ? (
           <div className="search-content">
             {foodItems?.map((item) => {
               return <p key={item.id}>{item.name}</p>;
