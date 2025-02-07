@@ -1,0 +1,16 @@
+.parent-search {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+}
+
+.search-content {
+  height: 400px;
+  overflow: scroll;
+}
+
+.search-content p:hover {
+  background-color: beige;
+  color: black;
+  cursor: pointer;
+}
